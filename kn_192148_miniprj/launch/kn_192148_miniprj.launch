@@ -1,0 +1,6 @@
+<launch>
+  <node pkg="kn_192148_miniprj" type="mini_project.py" name ="turtlebot" output="screen"/>
+  <node pkg="kn_192148_miniprj" type="go_to_point.py" name ="go_to_point" output="screen"/>
+  <node pkg="kn_192148_miniprj" type="wall_follower.py" name ="wall_follower" output="screen"/>
+
+</launch>
